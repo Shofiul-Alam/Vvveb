@@ -1,6 +1,6 @@
 [submodule "public/themes/landing"]
 	path = public/themes/landing
-	url = https://github.com/givanz/landing
+	url = https://github.com/Shofiul-Alam/landing.git
 [submodule "public/themes/blog-default"]
 	path = public/themes/blog-default
 	url = https://github.com/givanz/blog-default
