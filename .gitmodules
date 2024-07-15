@@ -6,7 +6,7 @@
 	url = https://github.com/givanz/blog-default
 [submodule "public/admin/default"]
 	path = public/admin/default
-	url = https://github.com/givanz/vvveb-admin-template
+	url = https://github.com/Shofiul-Alam/vvveb-admin-template.git
 [submodule "plugins/contact-form"]
 	path = plugins/contact-form
 	url = https://github.com/Vvveb/contact-form
