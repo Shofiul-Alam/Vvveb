@@ -9,13 +9,13 @@
 	url = https://github.com/Shofiul-Alam/vvveb-admin-template.git
 [submodule "plugins/contact-form"]
 	path = plugins/contact-form
-	url = https://github.com/Shofiul-Alam/payment.git
+	url = https://github.com/Shofiul-Alam/contact-form.git
 [submodule "public/js/libs/tinymce-dist"]
 	path = public/js/libs/tinymce-dist
 	url = https://github.com/tinymce/tinymce-dist
 [submodule "plugins/payment"]
 	path = plugins/payment
-	url = https://github.com/Vvveb/payment
+	url = https://github.com/Shofiul-Alam/payment.git
 [submodule "plugins/shipping"]
 	path = plugins/shipping
-	url = https://github.com/Vvveb/shipping
+	url = https://github.com/Shofiul-Alam/shipping.git
