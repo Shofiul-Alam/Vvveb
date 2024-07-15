@@ -3,7 +3,7 @@
 	url = https://github.com/Shofiul-Alam/landing.git
 [submodule "public/themes/blog-default"]
 	path = public/themes/blog-default
-	url = https://github.com/givanz/blog-default
+	url = https://github.com/Shofiul-Alam/blog-default.git
 [submodule "public/admin/default"]
 	path = public/admin/default
 	url = https://github.com/Shofiul-Alam/vvveb-admin-template.git
