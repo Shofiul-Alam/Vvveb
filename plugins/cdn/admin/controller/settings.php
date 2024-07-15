@@ -20,7 +20,30 @@
  *
  */
 
-$PUBLIC_PATH       = '/';
-$PUBLIC_THEME_PATH = '/admin/';
+namespace Vvveb\Plugins\CDN\Controller;
 
-include __DIR__ . '/../../admin/index.php';
+use function Vvveb\__;
+use Vvveb\Controller\Base;
+
+class Settings extends Base {
+	function save() {
+		//$validator = new Validator(['plugins.insert-scripts.settings']);
+		$settings  = $this->request->post['settings'] ?? false;
+		$errors    = [];
+
+		if ($settings /*&&
+			($errors = $validator->validate($settings)) === true*/) {
+			//$settings              = $validator->filter($settings);
+			$results               = \Vvveb\setMultiSetting('cdn',$settings);
+			$this->view->success[] = __('Settings saved!');
+		} else {
+			$this->view->validationErrors = $errors;
+		}
+	}
+
+	function index() {
+		$this->view->defaults = [
+			'url'         => '//cdn.statically.io/img/%host%',
+		];
+	}
+}
